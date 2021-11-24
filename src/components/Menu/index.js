@@ -10,10 +10,10 @@ const Menu = (props) => (
     <ul className={css.Menu}>
       {props.userId ? (
         <Fragment>
-          <MenuItem exact link="/">
+          {/* <MenuItem exact link="/">
             ШИНЭ ЗАХИАЛГА
           </MenuItem>
-          <MenuItem link="/orders">ЗАХИАЛГАНУУД</MenuItem>
+          <MenuItem link="/orders">ЗАХИАЛГАНУУД</MenuItem> */}
           <MenuItem link="/logout">ГАРАХ</MenuItem>
         </Fragment>
       ) : (
