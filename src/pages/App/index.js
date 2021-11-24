@@ -3,7 +3,7 @@ import css from "./style.module.css";
 
 // import Toolbar from "../../components/Toolbar";
 // import BurgerPage from "../BurgerPage";
-import SideBar from "../../components/SideBar";
+
 // import OrderPage from "../OrderPage";
 import { Route, Switch } from "react-router-dom";
 // import ShippingPage from "../ShippingPage";
